@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+
+        }
+
+        body {
+            background-color: rgb(0, 0, 32);
+            color: white;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(8, 8, 56);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(113, 113, 187);
+            font-size: 1.05rem;
+        }
+
+        .left {
+            font-size: 2rem;
+
+        }
+
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 130px 0;
+        }
+
+        main hr {
+            border: 0;
+            background-color: rgb(52, 52, 120);
+            height: 1.2px;
+            margin: 40px 84px;
+        }
+
+        .firstsection>div {
+            width: 30%;
+        }
+
+        .leftsection {
+            font-size: 3rem;
+        }
+
+        .leftsection .btn{
+            padding: 12px;
+            background-color: aqua;
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+        .rightsection img {
+            width: 80%;
+            margin: 50px 0;
+        }
+
+        .purple {
+            color: rgb(174, 93, 250);
+        }
+
+        .txet-gray {
+            color: gray;
+        }
+
+        #element {
+            color: rgb(174, 93, 250);
+        }
+
+        .secondsection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .secondsection h1 {
+            font-size: 1.9rem;
+        }
+
+        .secondsection .box {
+            display: flex;
+            background-color: white;
+            width: 61vw;
+            height: 2px;
+            margin: 56px 0 0;
+        }
+
+        .secondsection .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 100px;
+        }
+
+        .image-top {
+            width: 30px;
+            position: relative;
+            top: -34px;
+            left: -17px;
+        }
+
+
+        .vertical-text {
+            position: relative;
+            top: 65px;
+            left: -41px;
+            width: 150px;
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 71px;
+            left: -39px;
+            color: rgb(199, 205, 159);
+            width: 150px;
+            font-size: 12.5px;
+        }
+
+        footer {
+            background-color: rgb(3, 0, 8);
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+        }
+        footer .footer-rights{
+            text-align: center;
+            color: gray;
+            padding: 12px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Abrar's portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Skill</a></li>
+                    <li><a href="/">Project</a></li>
+                    <li><a href="/">Contact Me</a></li>
+
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hi , my name is <span class="purple"> Abrar </span>
+                <div>and I'm a passionate</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn">Download Resume</button>
+                    <button class="btn">Visit Github</button>
+                </div>
+            </div>
+            <div class="rightsection">
+                <img src="download.jpg" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="secondsection">
+            <span class="txet-gray">What I have Done so far </span>
+            <h1>Past Project</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="download.jpg" alt="">
+                    <div class="vertical-text">
+                        HTML Developer (2010-2012)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus quis nemo nostrum
+                        laudantium sint quod error dignissimos exercitationem eaque necessitatibus, molestiae fugiat
+                        vitae. Non, incidunt.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="download.jpg" alt="">
+                    <div class="vertical-text">
+                        HTML Developer (2010-2012)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus quis nemo nostrum
+                        laudantium sint quod error dignissimos exercitationem eaque necessitatibus, molestiae fugiat
+                        vitae. Non, incidunt.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="download.jpg" alt="">
+                    <div class="vertical-text">
+                        HTML Developer (2010-2012)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus quis nemo nostrum
+                        laudantium sint quod error dignissimos exercitationem eaque necessitatibus, molestiae fugiat
+                        vitae. Non, incidunt.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="download.jpg" alt="">
+                    <div class="vertical-text">
+                        HTML Developer (2010-2012)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus quis nemo nostrum
+                        laudantium sint quod error dignissimos exercitationem eaque necessitatibus, molestiae fugiat
+                        vitae. Non, incidunt.
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Abrar's portfolio</h3>
+            </div>
+            <div class="footer-second">Home</div>
+            <div class="footer-thrid">About</div>
+            <div class="footer-fourth">Contact Me
+
+            </div>
+        </div>
+        <div class="footer-rights">
+            Copyright &#169; abrarsportfolio.com | All rights reserved
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"> </script>
+    <!--Setup and start animation!-->
+    <script>
+        var typed = new typed('#element', {
+            String: ['Front end Developer', 'Web developer', 'Video edtior', 'logo maker'],
+            typespeed: 50,
+        })
+    </script>
+</body>
+
+</html>
